@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Application Form</title>
+
+  <!-- Fonts have already been added here! -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <form>
+    <h1>YOUR CONTACT INFO</h1>
+    <label for="name">Full name</label>
+    <input type="text" id="name" placeholder="Enter your Name">
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your Email">
+    <label for="phone">Phone Number</label>
+    <input type="phone" id="phone" placeholder="Enter your Phone Number">
+    <hr>
+    <h1>SKILLS AND INTERESTS</h1>
+    <h4>What course are you interested in?</h4>
+    <select class="listCourses" name="listCourses">
+      <option>Select</option>
+      <option>Front End Web Development</option>
+      <option>Back End Web Development</option>
+      <option>User Experience</option>
+      <option>JavaScript Development</option>
+      <option>Data Scientist</option>
+    </select>
+    <h4>Where do you want to take this course?</h4>
+    <div class="wrapper">
+      <label for="city">San Francisco</label>
+      <input type="radio" name="city" value="sanFrancisco">
+      <label for="city">Chicago</label>
+      <input type="radio" name="city" value="chicago">
+    </div>
+    <h4>Past Experience</h4>
+    <textarea>What is your past experience?</textarea>
+    <hr>
+    <div class="wrapper">
+      <label for="add">I want to receive email updates.</label>
+      <input type="checkbox" name="add" value="add">
+    </div>
+    <button type="submit" name="button">Submit Application</button>
+  </form>
+</body>
+</html>

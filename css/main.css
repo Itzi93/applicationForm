@@ -1,0 +1,52 @@
+body{
+  background-color: #98D2BF;
+}
+form{
+  background-color: white;
+  width: 450px;
+  height: 830px;
+  margin-left: 450px;
+}
+h1{
+  font-family: oswald;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+h4{
+  margin-left: 20px;
+}
+label{
+  font-family: Open Sans;
+  margin-left: 20px;
+}
+input{
+  display: block;
+  margin: 5px 20px 10px 20px;
+  width: 300px;
+  padding: 10px;
+}
+button{
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: #B69843;
+}
+select{
+  margin-left: 20px;
+}
+option{
+  margin-left: 20px;
+}
+textarea{
+  margin-left: 20px;
+  width: 400px;
+  height: 100px;
+}
+.wrapper input {
+    display: inline-block;
+    width: 4%;
+}
+button:hover{
+  color: white;
+  background-color: orange;
+}
